@@ -24,9 +24,9 @@ function App() {
   return (
     <div className="App">
       <h1>JSX will go here!</h1>
-      <Item text = {text} style={{ fontFamily: 'decorative' }}/>
-      <Item text = {text} style={{ fontFamily: 'script' }}/>
-      <Item text = {text} style={{ fontFamily: 'arial' }}/>
+      <Item text = {text} font= {'decorative'}/>
+      <Item text = {text} font= {'script'} />
+      <Item text = {text} font= {'arial'}/>
       
 
       <Input onChange={handleChange}/>
