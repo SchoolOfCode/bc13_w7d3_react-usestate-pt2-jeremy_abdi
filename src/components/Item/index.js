@@ -2,6 +2,7 @@
 
 import React from "react"
 
-export default function Item(props,font) {
-    return < li style={{fontFamily: `${font}`}}> {props.text} </li>
+export default function Item({text, font}) {
+    
+    return < li style={{fontFamily: `${font}`}} > {text} </li>
 }

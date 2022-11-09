@@ -24,11 +24,9 @@ function App() {
   return (
     <div className="App">
       <h1>JSX will go here!</h1>
-      <Item text = {text} font= {'decorative'}/>
-      <Item text = {text} font= {'script'} />
-      <Item text = {text} font= {'arial'}/>
-      
-
+      <Item text = {text} font= "Monaco"/>
+      <Item text = {text} font= "Verdana" />
+      <Item text = {text} font= "Baskerville"/>
       <Input onChange={handleChange}/>
     </div>
   );
